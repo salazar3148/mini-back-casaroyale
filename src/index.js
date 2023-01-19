@@ -8,7 +8,7 @@ const port = process.env.PORT || 3000;
 server.use((req, res, next) => {
     res.header('Access-Control-Allow-Origin', '*');
     
-    res.header('Acess-Control-Allow-Headers', '*');
+    res.header('Access-Control-Allow-Headers', '*');
     next();
 })
 
